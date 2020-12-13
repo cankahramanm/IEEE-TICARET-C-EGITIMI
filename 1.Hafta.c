@@ -66,7 +66,7 @@ int main()
   saat=12;
   harf='A';
 	toplam = saat * ucret;
-	printf("%c kodlu calisanin, alacagi ucret: %f\n",harf,toplam);
+	printf("%c kodlu calisanin, alacagi ucret: %.2f\n",harf,toplam);
 	return 0;
 }
 */
@@ -76,12 +76,13 @@ int main()
 int x;
 float y;
 char n;
-printf("Bir tamsayi giriniz\n");
+printf("Bir tamsayi giriniz=");
 scanf("%d",&x);
-printf("Bir float cinsinden sayi giriniz\n");
+printf("Bir float cinsinden sayi giriniz=");
 scanf("%f",&y);
-printf("Bir harf giriniz\n");
+printf("Bir harf giriniz=");
 scanf(" %c",&n);//yüzde c den önce bir boşluk bırakıyoruz.C text kurallarından nedenini öğrenebilirsiniz.
+printf("-----------------------------\n");
 printf("Girdiginiz tam sayi=%d\nGirdiginiz float cinsinden sayi=%.2f\nGirdiginiz harf=%c\n",x,y,n);
 	return 0;
 }
@@ -126,8 +127,8 @@ int main( )
     alan = pow(PISAYISI, 2)*r;
     cevre=2*PISAYISI*r;
 
-   printf("\n%.3f",alan);
-   printf("\n%.3f\n",cevre);
+   printf("Daire alani=%.3f\n",alan);
+   printf("Dairenin cevresi=%.3f\n",cevre);
     return 0;
 }
 */
