@@ -186,3 +186,185 @@ printf("Hatali giris yaptiniz.\n");
   return 0;
 }
 */
+/*
+int main()
+{
+	int i;
+	for( i = 0 ; i < 10; i++ ) {
+		printf("%d: IEEE\n",i);
+	}
+	return 0;
+}
+*/
+/*
+int main()
+{
+	int i;
+	i = 0;
+	for( ; i < 10; ) {
+		printf("%d: IEEE\n",i);
+		i = i + 1;
+	}
+	return 0;
+}
+*/
+/*
+int main()
+{
+
+	int sayi,i;
+	int faktoriyel = 1;
+
+	printf("Sayi giriniz=");
+	scanf("%d",&sayi);
+
+	//Eğer sayı 0'a büyük eşitse, faktoriyel hesaplanır.
+	if( sayi >= 0 )
+  {
+		//Eğer sayı 0 ise, alttaki döngü hiç çalışmaz.
+		for( i = sayi; i > 0; i-- )
+    {
+			faktoriyel *= i;
+		}
+		printf("Faktoriyel = %d\n",faktoriyel);
+	}
+	//Eğer sayı 0'dan küçükse, değer hesaplanamaz.
+	else
+		printf("Sayi 0'dan kücük olamaz!\n");
+	return 0;
+}
+*/
+/*
+int main()
+{
+	int i, j;
+	for( i = 0 ; i < 5; i++ )
+  {
+		for( j = 0; j < i+1; j++ )
+    {
+			printf("* ");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+*/
+/*
+int main()
+{
+    int a ;
+    for (a=0; a<=9; a++)
+    {
+        if (a==5)
+        {
+            continue;   //a 5 te devamını çalıştırmadı 6 dan devam etti
+        }
+        printf("%d. IEEE CS \n", a);
+    }
+    return 0;
+}
+*/
+/*
+int main(){
+float i;
+float x;
+float z=0;
+float n=1;
+float e=3269017.37;
+float total;
+for(i=0;i<50;i++){
+n=n*z;
+  if(n==0){
+    n=1;
+  }
+  x+=pow(15,i)/n;
+  z++;
+}
+printf("True Value=%f\n",e);
+printf("Approximation=%f\n",x);
+total=(e-x)/e*100;
+printf("True Error=True Value-Approximation=%f\n",e-x);
+printf("True Error/True Value*100=True Relative Percent Error=%f\n",total);
+
+  return 0;
+
+}
+*/
+/*
+int main()
+{
+
+	int i = 0;
+
+	while( i++ < 10 ) {
+
+		printf("%d: IEEE\n",i);
+	}
+	return 0;
+}
+*/
+/*
+int main()
+{
+	int i = 0, toplam_deger = 0;
+	int n;
+	printf("Lutfen n degerini giriniz= ");
+	scanf("%d",&n);
+	while( i <= n )
+  {
+		toplam_deger += i*i;
+		i++;
+	}
+	printf("Sonuc: %d\n",toplam_deger);
+	return 0;
+}
+*/
+/*
+int main() {
+    int a=0;
+    while (a<=9) {
+
+        while (a<=5) {
+            printf("%d. IEEE CS \n",a);
+            a++;
+        }
+        printf("%d. Ticaret Universitesi\n",a);
+        a++;
+    }
+}
+*/
+/*
+int main()
+{
+	int i = 0;
+	do {
+		//Önce i'nin değeri arttırılıyor
+		//sonra ekrana Merhaba Dünya yazdırılıyor.
+		printf("%d: IEEE CS\n",++i);
+	} while( i < 10 );
+	return 0;
+}
+*/
+/*
+int main()
+{
+	int sayi_1, sayi_2;
+	char devam_mi;
+	do {
+		printf("Birinci sayiyi giriniz= ");
+		scanf("%d",&sayi_1);
+		printf("Ikinci sayiyi giriniz= ");
+		scanf("%d",&sayi_2);
+		printf("%d + %d = %d\n", sayi_1, sayi_2, sayi_1 + sayi_2);
+		printf("Devam etmek ister misiniz? ");
+		//C'de tek karakter okuma işlemi biraz sıkıntılı
+		//olduğundan, burada da bir do while kullandık.
+		do {
+			scanf("%c",&devam_mi);
+		}while( devam_mi == '\n' );
+		printf("\n");
+	} while( devam_mi == 'E' || devam_mi == 'e' );
+
+	return 0;
+}
+*/
