@@ -22,29 +22,6 @@ int main() {
 }
 */
 /*
-int main()
-{
-     int array[10], i, n, toplam = 0, ortalama;
-
-     printf("Kaclik array olusturacaginizi seciniz=");
-     scanf("%d", &n);
-
-     for(i=0; i<n; ++i)
-     {
-          printf("%d.sayiyi giriniz= ",i+1);
-          scanf("%d", &array[i]);
-
-
-          toplam += array[i];
-     }
-
-     ortalama = toplam/n;
-     printf("Ortalama = %d\n", ortalama);
-
-     return 0;
-}
-*/
-/*
 int main ()
 {
 
