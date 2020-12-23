@@ -104,3 +104,71 @@ int main(){
    return 0;
 }
 */
+/*
+void fonk()
+{
+int x;
+x=100;
+printf("Fonksiyondaki x degeri: %d\n", x);
+}
+
+int main()
+{
+int x;
+x=10;
+printf("Ana programdaki x degeri: %d\n", x);
+fonk();
+printf("Ana programdaki x degeri: %d\n",x);
+return 0;
+}
+*/
+/*
+void func(int a)
+{
+  a++;
+}
+int main()
+{ int a = 0;
+  func(a);
+  printf("%d\n", a);
+return 0;
+}
+*/
+/*
+int func(int a)
+{
+  a++;
+  return a;
+}
+int main()
+{ int a = 0;
+  a = func(a);
+  printf("%d\n", a);
+return 0;
+}
+*/
+void cati()
+{
+    printf( "    /\\   \n" );
+  	printf( "   /  \\  \n" );
+  	printf( "  /    \\ \n" );
+  	printf( " /      \\\n" );
+  	printf( "----------\n" );
+}
+
+
+void kat()
+{
+	printf( "|        |\n" );
+	printf( "|        |\n" );
+	printf( "|        |\n" );
+	printf( "----------\n" );
+}
+
+
+int main()
+{
+	cati( );
+	kat( );
+	return 0;
+}
