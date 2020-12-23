@@ -147,6 +147,7 @@ int main()
 return 0;
 }
 */
+/*
 void cati()
 {
     printf( "    /\\   \n" );
@@ -172,3 +173,4 @@ int main()
 	kat( );
 	return 0;
 }
+*/
