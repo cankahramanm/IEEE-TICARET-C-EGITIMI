@@ -18,10 +18,9 @@ int main(){
 }
 */
 /*
-int main() {
-
-
-    printf("Covid-19 sebebiyle bazi kisitlamalar geldi.\nBunlardan biri de disari cikma yasaklari\n"
+int main()
+{
+      printf("Covid-19 sebebiyle bazi kisitlamalar geldi.\nBunlardan biri de disari cikma yasaklari\n"
            "hangi yas ne zaman cikiyor bu durum\ngercekten karisik bir halde bundan dolayi yasimizi\n"
            "girip ne zaman cikabilecegimizi \nsoyleyen basit bir C kodu yazdik\n \n");
 
@@ -30,13 +29,16 @@ int main() {
 
     scanf("%d", &yas);
 
-    if (yas > 65) {
+    if (yas > 65)
+    {
         printf("Haftaici 10.00 ve 13.00 saatleri arasinda disari cikabilirsiniz\n");
     }
-    else if (20 > yas) {
+    else if (20 > yas)
+    {
         printf("Haftaici 13.00 ve 16.00 saatleri arasinda disari cikabilirsiniz\n");
     }
-    else if (yas >= 20 && yas < 65) {
+    else if (yas >= 20 && yas < 65)
+    {
         printf("haftaici 05.00-21.00 saatleri arasinda cikabilirsiniz.\n"
                "Haftasonu disari cikma yasagi her yas için vardir\n"
                "Sadece evinize yurume mesafesinde olan markete gidebilirsiniz \n"
