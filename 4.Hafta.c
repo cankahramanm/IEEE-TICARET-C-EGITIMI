@@ -81,13 +81,24 @@ int main()
 /*
 int main()
 {
-
+//'\0'=boş karakter ( NULL )
     char str[] = "DeryayaYakinDunyadanUzak";
 
 
     printf("%s\n",str);
 
     return 0;
+}
+*/
+/*
+int main()
+{
+	char cumle[40];
+	printf( "Cumle giriniz: ");
+	gets( cumle );
+	printf( "Girdiginiz cumle:" );
+	puts( cumle );
+	return 0;
 }
 */
 //https://stackoverflow.com/questions/3209909/how-to-printf-unsigned-long-in-c
