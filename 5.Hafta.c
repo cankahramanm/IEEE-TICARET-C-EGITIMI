@@ -147,3 +147,31 @@ myperson.lastname, myperson.student_number, myperson.department);
   return 0;
 }
 */
+/*
+int main()
+{
+    int i, sayi;
+    for(i = 0 ; i < 5 ; i++)
+    {
+        sayi = rand() % 6 + 1;
+        printf("%d\t",sayi);
+    }
+    return 0;
+}
+*/
+/*
+int main()
+{
+    int i, sayi;
+
+    srand(time(NULL));
+
+    for(i = 0 ; i < 6 ; i++)
+    {
+        sayi = rand() % 6 + 1;
+        printf("%d\t",sayi);
+    }
+
+    return 0;
+}
+*/
