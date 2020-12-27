@@ -136,6 +136,19 @@ int main()
 /*
 int main()
 {
+    char cdizi1[] = "Bilgisayar";
+    char cdizi2[] = "Programlama";
+
+    strncpy(cdizi1, cdizi2, 7);
+
+    printf("%s\n", cdizi1);
+
+    return 0;
+}
+*/
+/*
+int main()
+{
     char str1[] = "abcd", str2[] = "abCd", str3[] = "abcd";
     int result;
 
@@ -148,6 +161,45 @@ int main()
     printf("strcmp(str1, str3) = %d\n", result);
 
     return 0;
+}
+*/
+/*
+int main () {
+   char str1[20];
+   char str2[20];
+   int result;
+
+   strcpy(str1, "hello");
+
+   strcpy(str2, "helLO WORLD");
+
+   result = strncmp(str1, str2, 3);
+
+   if(result > 0) {
+      printf("ASCII value of first unmatched character of str1 is greater than str2");
+   } else if(result < 0) {
+      printf("ASCII value of first unmatched character of str1 is less than str2");
+   } else {
+      printf("Both the strings str1 and str2 are equal");
+   }
+
+   return 0;
+}
+*/
+/*
+int main()
+{
+
+   char src[50] = "efghijkl";
+   char dest[50]= "abcd";
+
+
+   strncat(dest, src, 5);
+
+   printf("Kaynak string : %s\n", src);
+   printf("Eklenmis string : %s\n", dest);
+
+   return 0;
 }
 */
 /*
