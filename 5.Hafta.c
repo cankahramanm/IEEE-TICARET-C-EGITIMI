@@ -175,3 +175,32 @@ int main()
     return 0;
 }
 */
+/*
+typedef struct _car{
+int sira_id;
+char *marka;
+char *model;
+int yasi;
+float fiyat;
+}car;
+
+int main()
+{
+car sira1; // garajın 1. sırasındaki aracı tanımlamak için
+//car struct’ının özellikleri çağırıldı
+
+sira1.sira_id=1;
+sira1.marka="Mercedes-Benz";
+sira1.model="C180";
+sira1.yasi=2012;
+sira1.fiyat=180.000;
+
+printf ("No: %d\n",sira1.sira_id);
+printf ("Marka: %s\n",sira1.marka);
+printf ("Model: %s\n",sira1.model);
+printf ("Uretim yili: %d\n",sira1.yasi);
+printf ("Fiyat: %.3f TL.\n",sira1.fiyat);
+
+return 0;
+}
+*/
