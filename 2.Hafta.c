@@ -252,6 +252,21 @@ int main()
 /*
 int main()
 {
+	int i;
+	for(i=0; i < 9; i++ )
+  {
+		for(; i < 5; i++ )
+    {
+		printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+*/
+/*
+int main()
+{
     int a ;
     for (a=0; a<=9; a++)
     {
