@@ -151,3 +151,51 @@ int main()
 	return 0;
 }
 */
+/*
+#include <stdio.h>
+
+int faktoriyel (int a ){
+    int i;
+    int faktoriyel=1;
+    for (int i =1 ; i <=a ;i++)
+        faktoriyel*=i;
+        printf("%d faktoriyel %d dir. ",a,faktoriyel);
+
+}
+int main (){
+    int a;
+    printf("sayi giriniz : ");
+    scanf("%d",&a);
+    faktoriyel(a);
+}
+*/
+/*
+#include <stdio.h>
+
+int toplama (int a , int b){
+    return a+b;
+}
+int cikarma(int a , int b){
+    return a-b;
+}
+int carpma (int a , int b){
+    return a*b;
+}
+float bolme  (int a, int b){
+return a/b; }
+int main () {
+    int a ;
+    int b ;
+    printf("a sayisi :");
+    scanf("%d",&a);
+    printf("b sayisi :");
+    scanf("%d",&b);
+
+    printf("a+b = %d \n", toplama(a,b));
+    printf("a-b = %d \n", cikarma(a,b));
+    printf("a*b = %d \n", carpma(a,b));
+    printf("a/b = %f \n", bolme(a,b));
+
+    return 0;
+}
+*/
